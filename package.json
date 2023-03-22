@@ -1,0 +1,30 @@
+{
+  "name": "xmega",
+  "version": "1.0.0",
+  "description": "Get direct link for xmegadrive videos.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "bin": {
+    "xmega": "./xmega.js"
+  },
+  "author": {
+    "name": "Zubin",
+    "email": "me@zubin.org.in",
+    "url": "https://zubin.org.in"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/losparviero/xmegadrive.git"
+  },
+  "license": "AGPL-3.0",
+  "scripts": {
+    "start": "node xmega.js"
+  },
+  "dependencies": {
+    "input": "^1.0.1",
+    "puppeteer": "^19.7.5"
+  },
+  "devDependencies": {}
+}
