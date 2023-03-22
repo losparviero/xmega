@@ -35,6 +35,14 @@ import { download } from "xmega"
 
 <br>
 
+### Install
+
+```shell
+npm i -g xmega
+```
+
+<br>
+
 ### Methods
 
 ### download() Generates direct download link
@@ -46,14 +54,6 @@ await download(url)
     .then(console.log)
     .catch((error) => console.log(error))
 ~~~
-
-<br>
-
-### Install
-
-```shell
-npm i -g xmega
-```
 
 <br>
 
