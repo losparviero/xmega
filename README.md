@@ -1,4 +1,4 @@
-# Streamtape.js
+# Xmega.js
 
 Download videos from xMegaDrive in the CLI.
 
