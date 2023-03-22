@@ -1,21 +1,22 @@
 # Xmega.js
 
-Download videos from xMegaDrive in the CLI.
-
-<br>
-
-### Install
-
-```shell
-npm i -g xmega
-```
+Get direct download link of videos from xMegaDrive in the CLI.
 
 <br>
 
 ### Usage
 
+Without installing:
+
 ```shell
-xmega <url>
+npx xmega
+
+```
+
+With install:
+
+```shell
+xmega
 ```
 
 #### For use in a project
@@ -45,6 +46,14 @@ await download(url)
     .then(console.log)
     .catch((error) => console.log(error))
 ~~~
+
+<br>
+
+### Install
+
+```shell
+npm i -g xmega
+```
 
 <br>
 
