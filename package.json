@@ -1,6 +1,6 @@
 {
   "name": "xmega",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get direct link for xmegadrive videos.",
   "main": "index.js",
   "directories": {
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/losparviero/xmegadrive.git"
+    "url": "git+https://github.com/losparviero/xmega.git"
   },
   "license": "AGPL-3.0",
   "scripts": {
